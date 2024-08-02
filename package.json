@@ -1,0 +1,16 @@
+{
+  "name": "RAG",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.14.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.53.2",
+    "prompt-sync": "^4.2.0"
+  }
+}
